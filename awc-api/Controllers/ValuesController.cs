@@ -6,40 +6,43 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace awc_api.Controllers
 {
+
+    public class User
+    {
+        public User(string firstName, string lastName, string email, string activity, string comments)
+        {
+            this.firstName = firstName;
+            this.lastName = lastName;
+            this.email = email;
+            this.activity = activity;
+            this.comments = comments;
+        }
+
+        public string firstName { get; }
+        public string lastName { get; }
+        public string email { get; }
+        public string activity { get; }
+        public string comments { get; }
+    }
+
     [Route("api/[controller]")]
     [ApiController]
     public class ValuesController : ControllerBase
     {
         // GET api/values
         [HttpGet]
-        public ActionResult<IEnumerable<string>> Get()
+        public ActionResult<IEnumerable<User>> Get()
         {
-            return new string[] { "value1", "value2" };
-        }
-
-        // GET api/values/5
-        [HttpGet("{id}")]
-        public ActionResult<string> Get(int id)
-        {
-            return "value";
+            User usr1 = new User("Jim", "Johns", "email1@address.com", "Bowling", "");
+            User usr2 = new User("Joe", "Smith", "email2@address.com", "Biking", "test");
+            return new User[] { usr1, usr2 };
         }
 
         // POST api/values
         [HttpPost]
-        public void Post([FromBody] string value)
+        public void Post([FromBody] User value)
         {
-        }
-
-        // PUT api/values/5
-        [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
-        {
-        }
-
-        // DELETE api/values/5
-        [HttpDelete("{id}")]
-        public void Delete(int id)
-        {
+            System.Diagnostics.Debug.WriteLine(User);
         }
     }
 }

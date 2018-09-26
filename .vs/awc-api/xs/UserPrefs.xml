@@ -1,6 +1,10 @@
 ﻿<Properties StartupConfiguration="{9D5A772A-268F-493A-AF10-55AE4F5AB41D}|Default">
-  <MonoDevelop.Ide.ItemProperties.awc-api PreferredExecutionTarget="MonoDevelop.Default" FirstBuild="True" />
-  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.ItemProperties.awc-api PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="awc-api/Controllers/ValuesController.cs">
+    <Files>
+      <File FileName="awc-api/Controllers/ValuesController.cs" Line="38" Column="46" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />

@@ -1,0 +1,14 @@
+/Users/darrylwood/Projects/awc-api/awc-api/bin/Debug/netcoreapp2.1/awc-api.deps.json
+/Users/darrylwood/Projects/awc-api/awc-api/bin/Debug/netcoreapp2.1/awc-api.runtimeconfig.json
+/Users/darrylwood/Projects/awc-api/awc-api/bin/Debug/netcoreapp2.1/awc-api.runtimeconfig.dev.json
+/Users/darrylwood/Projects/awc-api/awc-api/bin/Debug/netcoreapp2.1/awc-api.dll
+/Users/darrylwood/Projects/awc-api/awc-api/bin/Debug/netcoreapp2.1/awc-api.pdb
+/Users/darrylwood/Projects/awc-api/awc-api/obj/Debug/netcoreapp2.1/awc-api.csprojAssemblyReference.cache
+/Users/darrylwood/Projects/awc-api/awc-api/obj/Debug/netcoreapp2.1/awc-api.csproj.CoreCompileInputs.cache
+/Users/darrylwood/Projects/awc-api/awc-api/obj/Debug/netcoreapp2.1/awc-api.RazorAssemblyInfo.cache
+/Users/darrylwood/Projects/awc-api/awc-api/obj/Debug/netcoreapp2.1/awc-api.RazorAssemblyInfo.cs
+/Users/darrylwood/Projects/awc-api/awc-api/obj/Debug/netcoreapp2.1/awc-api.AssemblyInfoInputs.cache
+/Users/darrylwood/Projects/awc-api/awc-api/obj/Debug/netcoreapp2.1/awc-api.AssemblyInfo.cs
+/Users/darrylwood/Projects/awc-api/awc-api/obj/Debug/netcoreapp2.1/awc-api.RazorTargetAssemblyInfo.cache
+/Users/darrylwood/Projects/awc-api/awc-api/obj/Debug/netcoreapp2.1/awc-api.dll
+/Users/darrylwood/Projects/awc-api/awc-api/obj/Debug/netcoreapp2.1/awc-api.pdb
